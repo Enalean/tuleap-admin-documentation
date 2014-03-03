@@ -13,4 +13,5 @@ Welcome to Tuleap's administration documentation!
    :maxdepth: 3
 
    install
+   howto/import-svn
 
