@@ -13,5 +13,6 @@ Welcome to Tuleap's administration documentation!
    :maxdepth: 3
 
    install
+   jabber
    howto/import-svn
 
