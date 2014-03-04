@@ -1,25 +1,31 @@
-=====================
-JabbeX Administration
-=====================
+============================
+OpenFire (Instant Messaging)
+============================
 
-What is JabbeX?
-===============
+The OpenFire XMPP/Jabber server requires little attention from the Tuleap
+administrators.
 
-JabbeX is a middleware used by Tuleap Instant Messaging (IM) plug-in to
-communicate with the Jabber server. The Tuleap IM plug-in relies on
-JabbeX to perform any operation related to the Jabber server.
+You may need to synchronize the OpenFire server with the Tuleap database in
+some cases (e.g. the OpenFire server was down for some time). Symply go to the
+Tuleap Administration page and select the "Instant Messaging" link.
 
-Purpose of this chapter
-=======================
+The OpenFire administrative interface is available from the main Tuleap
+administration page. By default, only the 'admin' user (same password as for
+Tuleap) has access to the OpenFire administration interface, but other users
+can be added easily.
 
-This chapter aims to provide information on how you may proceed to
-configure JabbeX.
-
-For further information on how to install and setup Openfire Jabber
+The following chapter add more details about how you may proceed to configure
+JabbeX. For further information on how to install and setup Openfire Jabber
 server please refer to its `official website`_.
 
 JabbeX Configuration
 ====================
+
+.. NOTE::
+  JabbeX is a middleware used by Tuleap Instant Messaging (IM) plug-in to
+  communicate with the Jabber server. The Tuleap IM plug-in relies on
+  JabbeX to perform any operation related to the Jabber server.
+
 
 The JabbeX configuration parameters are all found in the
 ``jabbex_conf.xml`` file in the ``etc/`` directory of your JabbeX installation.

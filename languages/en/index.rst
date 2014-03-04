@@ -13,6 +13,6 @@ Welcome to Tuleap's administration documentation!
    :maxdepth: 3
 
    install
-   jabber
+   openfire
    howto/import-svn
 
