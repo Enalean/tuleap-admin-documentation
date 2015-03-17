@@ -42,7 +42,7 @@ The real work
   existing repository on Tuleap:
   ::
 
-     svnadmin load /svnroot/projectname > /home/groups/projectname/new_svn_dumpfile
+     svnadmin load /svnroot/projectname < /home/groups/projectname/new_svn_dumpfile
 
 * Then, don't forget to set proper Unix ownership on the repository:
   ::
